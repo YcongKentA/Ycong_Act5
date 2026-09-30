@@ -1,0 +1,52 @@
+@charset "UTF-8";
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* PARA NI SA TULO PARA MA ALIGN SA TUNGA*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+
+/* PICTYUR STYLE */
+img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/* PARA NI SA INDEX COLOR  */
+body.index-page {
+    background-color: #000000;
+    color: #ffffff;  
+}
+
+
+/* PARA SA ABOUT PAGE COLOR  */
+body.about-page {
+    background-color: #000000;
+    color: #ffffff;  
+}
+
+
+/* PARA SA SHS PAGE COLOR  */
+body.shs-page {
+    background-color: #800000;
+    color: #ffffff;  
+}
+
+
+/* PARA SA TEXT SA UBOS INDEX, SHS DAYS UG ABOUT*/
+.text-cyan a {
+    color: rgb(0, 255, 255); /* Cyan */
+}
+
